@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V TRABAJO INTEGRADOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">    
+    <script src="curriculum.js"></script>
+  </head>
+
+<body>
+    <div class="panelPrincipal"> 
+        <h1>CURRICULUM VITAE</h1>
+
+        <img id=user_photo src="https://randomuser.me/api/portraits/women/9.jpg">
+        <header>
+            
+             <nav>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>     
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+             </nav>  
+        </header>
+    </div>
+
+<body>  
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+
+      <form id="formulario">
+        <p>
+            <label>
+                Nombre
+                <input type="text" id="nombre" value="" autocomplete="off">
+            </label>
+        </p>
+        <p>
+            <label>
+                Asunto
+                <input id="edad" type="text" value="" autocomplete="off">
+            </label>
+        </p>
+        <p>
+            <label>
+                Mensaje
+                <textarea cols="30" id="mensaje" name="" rows="10" autocomplete="off"></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit" id="enviar" value="Enviar"/>
+        </p>
+    </form>
+    <!-- Mensajes de error -->
+    <ul id="errores"></ul>
+    </div>  
+  </div>
+
+</body>
+</html>
